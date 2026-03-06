@@ -1,0 +1,36 @@
+name: Tr0NRP
+version: '${project.version}'
+main: me.tronrp.tr0nrp.Main
+api-version: 1.19
+commands:
+  #Admin
+  cheval:
+    description: Menu cheval
+    permission: admin.use
+  pecheur:
+    description: Spawn NPC pecheur
+    permission: admin.use
+  banquier:
+    description: Spawn NPC banquier
+    permission: admin.use
+  facteur:
+    description: Spawn NPC facteur
+    permission: admin.use
+  item:
+    description: Avoir tous les items
+    permission: admin.use
+
+
+  #Pas de permissions
+  voix:
+    description: Menu voix
+    aliases: [ v ]
+  setvoix:
+    description: Appliquer une voix
+    aliases: [ setv ]
+  showvoix:
+    description: Voir la voix
+    aliases: [sv,showv,svoix]
+  HRP:
+    description: Parler hrp
+    aliases: [hrp]
